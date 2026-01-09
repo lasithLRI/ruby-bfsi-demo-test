@@ -1,0 +1,53 @@
+<html lang="en">
+  <head>
+
+      {% include tracking.html %}
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+
+   
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    {% include social-media.html %}
+
+
+    <link rel="stylesheet" type="text/css" href="/demos/pisp/libs/bootstrap-5.2.0/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="/css/common-styles.css" >
+    <link rel="stylesheet" type="text/css" href="/css/ob.css" >
+    
+    <link rel="shortcut icon" href="/img/favicon.ico">
+    <title>WSO2 Open Banking - {{ page.title }}</title>
+
+  </head>
+
+
+
+
+  <body>
+    <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-56BQ56J"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+
+   <div class="row cNavRow">
+         {% include nav.html %}
+   </div>
+     
+
+  
+
+{{ content }}
+
+
+{% include footer.html %}
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="/demos/aisp/Banks/assets/jquery-3.6.0/jquery.min.js"></script>
+    <script src="/demos/aisp/Banks/assets/popperjs-2.11.6/popper.min.js"></script>
+    <script src="/demos/aisp/Banks/assets/bootstrap-5.2.0/bootstrap.min.js"></script>
+
+  </body>
+</html>

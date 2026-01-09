@@ -1,0 +1,150 @@
+<html lang="en">
+  <head>
+
+    {% include tracking.html %}
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+
+   
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    {% include social-media.html %}
+
+
+    <link rel="stylesheet" type="text/css" href="/demos/pisp/libs/bootstrap-5.2.0/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="/css/common-styles.css" >
+    <link rel="stylesheet" type="text/css" href="/css/ob.css" >
+    
+
+    <title>WSO2 Open Banking - {{ page.title }}</title>
+
+  </head>
+
+
+
+
+  <body>
+      <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-56BQ56J"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+   <div class="row cNavRow">
+         {% include nav.html %}
+   </div>
+
+
+   <section class="cHeader cSectionAboveHighlight cIntroSection cTitle">
+      <div class="container">
+       
+    
+     <div class="row">
+          <div class="col-sm-12 col-md-9 col-lg-9">
+               <h1 class="cReducedBottomMargin" style="display: inline-block;">{{ page.title }}</h1>
+              <p>{{ page.intro}}</p> 
+          </div>
+          <div class="clearfix"></div>
+
+      </div>
+
+
+    </div>
+
+</section>
+
+<section class="cIntro cWhiteBG">
+    <div class="container-flud ">
+        <div class="row">
+      
+            <div class="col-sm-12 col-md-3 col-lg-3 cTocConatiner">
+                <div class="cToC-pannel">
+                        {% include toc.html html=content %}
+                </div>
+                
+            </div>
+
+                <div class="col-sm-12 col-md-9 col-lg-9 cPagecontent">
+                    <div class=" cWhiteBG cAddedBottomMargin">
+                        {{ content }}
+                        <div class="clearfix"></div>
+                    </div>       
+                </div>
+
+
+            </div>
+    
+
+      
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+     
+ 
+  
+
+
+
+
+{% include footer.html %}
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="/demos/aisp/Banks/assets/jquery-3.6.0/jquery.min.js"></script>
+    <script src="/demos/aisp/Banks/assets/popperjs-2.11.6/popper.min.js"></script>
+    <script src="/demos/aisp/Banks/assets/bootstrap-5.2.0/bootstrap.min.js"></script>
+
+    <style>
+body {
+    /* background: #999999; */
+ 
+
+    background-size: 100%;
+    background-position: 0px -130px;
+    background-repeat: no-repeat;
+}
+    </style>
+
+    <script>
+//  $( ".section-nav" ).wrap( "<div class='col-sm-12 col-md-4 col-lg-4 ctoccontainer'></div>" );
+
+ 
+
+
+
+ $(window).scroll(function() {
+    if ($(this).scrollTop() > 380) {
+        $('.cToC-pannel').addClass('stick');
+    
+     
+
+    } else {
+
+        $('.cToC-pannel').removeClass('stick');
+      
+  
+    }
+    
+
+});
+
+
+
+
+
+
+
+
+    </script>
+
+  </body>
+</html>
