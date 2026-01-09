@@ -10,12 +10,13 @@
     {% include social-media.html %}
 
 
-    <link rel="stylesheet" type="text/css" href="../demos/pisp/libs/bootstrap-5.2.0/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="../css/common-styles.css" >
-    <link rel="stylesheet" type="text/css" href="../css/ob.css" >
-    
+      <link rel="stylesheet" type="text/css" href="{{ '/demos/pisp/libs/bootstrap-5.2.0/bootstrap.min.css' | relative_url }}">
+      <link rel="stylesheet" type="text/css" href="{{ '/css/common-styles.css' | relative_url }}" >
+      <link rel="stylesheet" type="text/css" href="{{ '/css/ob.css' | relative_url }}" >
 
-    <title>WSO2 Open Banking - {{ page.title }}</title>
+
+
+      <title>WSO2 Open Banking - {{ page.title }}</title>
 
   </head>
 
@@ -92,9 +93,9 @@
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="/demos/aisp/Banks/assets/jquery-3.6.0/jquery.min.js"></script>
-    <script src="/demos/aisp/Banks/assets/popperjs-2.11.6/popper.min.js"></script>
-    <script src="/demos/aisp/Banks/assets/bootstrap-5.2.0/bootstrap.min.js"></script>
+      <script src="{{ '/demos/aisp/Banks/assets/jquery-3.6.0/jquery.min.js' | relative_url }}"></script>
+      <script src="{{ '/demos/aisp/Banks/assets/popperjs-2.11.6/popper.min.js' | relative_url }}"></script>
+      <script src="{{ '/demos/aisp/Banks/assets/bootstrap-5.2.0/bootstrap.min.js' | relative_url }}"></script>
 
     <style>
 body {
