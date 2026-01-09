@@ -3,7 +3,7 @@ layout: ob-base-demo-page
 title: USECASE
 intro: Learn the core concepts of Open Banking
 toc: true
-permalink: /demos/usecasases
+permalink: /usecases
 ---
 
 Assume you are done adding your items to the shopping cart. You can then click the checkout/pay option.
