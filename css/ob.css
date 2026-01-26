@@ -203,12 +203,13 @@ h1.cReducedBottomMargin {
 }
 
 .cToC-pannel.stick {
-	position: fixed;
+	position: static;
 	width: 24%;
 	top: 0;
-	height: 95vh;
-	overflow-y: scroll;
-	overflow-x: hidden;
+	height: auto;
+	overflow: visible;
+	/*overflow-y: scroll;*/
+	/*overflow-x: hidden;*/
 	glyph-orientation-horizontal: 0rad;
 }
 
