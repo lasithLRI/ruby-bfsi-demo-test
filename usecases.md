@@ -8,4 +8,4 @@ permalink: /usecases
 
 Assume you are done adding your items to the shopping cart. You can then click the checkout/pay option.
 
-<iframe class="embed-responsive-item cIframe" src="/demos/usecases"></iframe>
+<iframe class="embed-responsive-item cIframe" src="/demos/usecases/index.html"></iframe>
