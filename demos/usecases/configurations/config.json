@@ -2,7 +2,7 @@
   "user": {
     "name": "James Smith",
     "image": "/resources/assets/images/profile/dp_image.webp",
-    "background":"resources/assets/images/background/bg-image.webp"
+    "background":"/resources/assets/images/background/bg-image.webp"
   },
   "name": {
     "route": "accounts-central",
@@ -11,7 +11,7 @@
   "banks": [
     {
       "name": "Ascend Global Bank",
-      "image": "resources/assets/images/logos/assend_global_bank_logo.png",
+      "image": "/resources/assets/images/logos/assend_global_bank_logo.png",
       "currency": "GBP",
       "color": "#FF5100",
       "border": "#FF5100",
@@ -79,7 +79,7 @@
     },
     {
       "name": "Global Asset Trust",
-      "image": "resources/assets/images/logos/global_asset_trust_logo.png",
+      "image": "/resources/assets/images/logos/global_asset_trust_logo.png",
       "currency": "GBP",
       "color": "#FFCC66",
       "border": "#FFCC66",
@@ -120,7 +120,7 @@
     },
     {
       "name": "Trust Union",
-      "image": "resources/assets/images/logos/trust_union_logo.png",
+      "image": "/resources/assets/images/logos/trust_union_logo.png",
       "currency": "GBP",
       "color": "#8E4714",
       "border": "#8E4714",
@@ -208,7 +208,9 @@
       "useCases": [
         {
           "id": "usecase1",
-          "title": "use case 1",
+          "title": "Use Case 1",
+          "userVerification": "Identifier-first authentication followed by two-step verification",
+          "consentDisplay": "N/A",
           "steps": [
             { "id": "1", "name": "Login to your Account", "component": "login" },
             { "id": "2", "name": "Two step verification", "component": "otp" },
@@ -225,7 +227,9 @@
       "useCases": [
         {
           "id": "use case 1",
-          "title": "use case 1",
+          "title": "Use Case 1",
+          "userVerification": "Identifier-first authentication followed by two-step verification",
+          "consentDisplay": "Multiple steps, including separate stages for account selection and consent confirmation",
           "steps": [
             { "id": "1", "name": "Login to your email", "component": "login-with-email" },
             { "id": "2", "name": "Two step verification", "component": "otp" },
@@ -236,7 +240,9 @@
         },
         {
           "id": "use case 2",
-          "title": "use case 2",
+          "title": "Use Case 2",
+          "userVerification": "Identifier-first authentication followed by two-step verification",
+          "consentDisplay": "Single-step flow for account selection and consent confirmation, allowing the user to select multiple accounts per permission",
           "steps": [
             { "id": "1", "name": "Login to your Account", "component": "login" },
             { "id": "2", "name": "Two step verification", "component": "otp" },
@@ -245,20 +251,12 @@
             { "id": "5", "name": "redirection", "component": "redirecting"}
           ]
         },
-        {
-          "id": "use case 3",
-          "title": "use case 3",
-          "steps": [
-            { "id": "1", "name": "Login to your Account", "component": "login" },
-            { "id": "2", "name": "Two step verification", "component": "otp" },
-            { "id": "3", "name": "select the account two", "component": "account-select" },
-            { "id": "4", "name": "authorize the selection", "component": "account-authorize"},
-            { "id": "5", "name": "redirection", "component": "redirecting"}
-          ]
-        },
+
         {
           "id": "use case 4",
-          "title": "use case 4",
+          "title": "Use Case 4",
+          "userVerification": "Identifier-first authentication followed by two-step verification",
+          "consentDisplay": "Single-step flow for account selection and consent confirmation, allowing the user to select one or more accounts for the consent",
           "steps": [
             { "id": "1", "name": "Login to your Account", "component": "login" },
             { "id": "2", "name": "Two step verification", "component": "otp" },
@@ -294,9 +292,9 @@
     {"backgroundColor": "#FFF5EE"},
     {"tableBackground":"#FFFFFF"},
     {"innerButtonBackground":"#bdc3c7"},
-    {"bankColor1":"#9b59b6"},
-    {"bankColor2":"#f1c40f"},
-    {"bankColor3":"#2ecc71"},
+    {"bankColor1":"#D22B2B"},
+    {"bankColor2":"#097969"},
+    {"bankColor3":"#0047AB"},
     {"bankBackground":"#E5E4E2"},
     {"fontWhite": "#FFFFFF"},
     {"formValidationError": "#c0392b"},
@@ -304,7 +302,8 @@
     {"tableHeaderBackground": "#F6F6F7"},
     {"tableBackgroundColor": "#FFFFF0"},
     {"greenArrowColor": "#2ecc71"},
-    {"redArrowColor": "#c0392b"}
+    {"redArrowColor": "#c0392b"},
+    {"requiredStar": "#e74c3c"}
   ],
 
   "accountNumbersToAdd": ["-0566-1212","-0045-2020","-0400-1010"]
