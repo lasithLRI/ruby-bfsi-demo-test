@@ -1,6 +1,6 @@
 ---
 layout: ob-base-demo-page
-title: USECASE
+title: AISP/PISP
 intro: Learn the core concepts of Open Banking
 toc: true
 permalink: /usecases

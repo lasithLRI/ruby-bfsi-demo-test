@@ -203,20 +203,24 @@ h1.cReducedBottomMargin {
 }
 
 .cToC-pannel.stick {
-	position: static;
+	position: fixed;
 	width: 24%;
 	top: 0;
-	height: 100vh;
-	overflow: visible;
+	height: auto;
+
 	/*overflow-y: scroll;*/
 	/*overflow-x: hidden;*/
+	overflow: visible;
 	glyph-orientation-horizontal: 0rad;
+	background: #0a53be;
 }
 
 .cIframe {
 	width: 100%;
-	height: 600px;
+	height: 400vh;
+	scroll:no;
 	border: 1px solid green;
+	background: green;
 }
 
 .cIconTitle {
