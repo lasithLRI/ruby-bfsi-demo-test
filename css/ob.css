@@ -124,8 +124,8 @@ ul.cFloatRight {
 
 
 /* .section-nav {
-   
-   
+
+
 position: fixed;
     padding: 3rem 4rem;
     background-color:#fff;
@@ -217,9 +217,9 @@ h1.cReducedBottomMargin {
 
 .cIframe {
 	width: 100%;
-	height: fit-content;
+	height: 240vh;
 	scroll:no;
-	/*border: 1px solid green;*/
+	border: 1px solid green;
 
 }
 
@@ -234,9 +234,9 @@ h1.cReducedBottomMargin {
 	 display: block;
 
 		text-transform: uppercase;
-		
 
-	
+
+
 }
 
 .cStep {
@@ -307,7 +307,7 @@ padding: 1rem;
 
 .cPagecontent img {
 		max-width: 100%;
-} 
+}
 .cMobileDiagram  {
 	display: none;
 }
@@ -347,12 +347,12 @@ padding: 1rem;
 	.cTocConatiner {
 		display: none;
 	}
-	
+
 
 }
 
 
-@media (max-width: 770px) { 
+@media (max-width: 770px) {
 	body {
 		background-size: 300% !important;
 	}
@@ -366,11 +366,11 @@ padding: 1rem;
 	.cSliderImage {
 		padding-top: 30px;
 	}
-	
+
 
 }
 
-@media (max-width: 550px) { 
+@media (max-width: 550px) {
 	body {
 		background-size: 600% !important;
 	}
