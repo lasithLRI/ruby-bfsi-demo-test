@@ -212,7 +212,7 @@ h1.cReducedBottomMargin {
 	/*overflow-x: hidden;*/
 	overflow: visible;
 	glyph-orientation-horizontal: 0rad;
-	background: #0a53be;
+
 }
 
 .cIframe {
@@ -220,7 +220,7 @@ h1.cReducedBottomMargin {
 	height: fit-content;
 	scroll:no;
 	/*border: 1px solid green;*/
-	background: green;
+
 }
 
 .cIconTitle {
