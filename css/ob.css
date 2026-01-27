@@ -219,7 +219,7 @@ h1.cReducedBottomMargin {
 	width: 100%;
 	height: fit-content;
 	scroll:no;
-	border: 1px solid green;
+	/*border: 1px solid green;*/
 	background: green;
 }
 
