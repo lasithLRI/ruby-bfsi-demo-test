@@ -203,7 +203,7 @@ h1.cReducedBottomMargin {
 }
 
 .cToC-pannel.stick {
-	position: fixed;
+	position: sticky;
 	width: 24%;
 	top: 0;
 	height: 400vh;
