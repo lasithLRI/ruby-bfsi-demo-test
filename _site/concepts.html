@@ -1,0 +1,472 @@
+<html lang="en">
+  <head>
+
+    <meta name="google-site-verification" content="4fIHNv89MtpEyeb20F9ZrkTDwtzcXtVHdZm4xxrF2xY" />
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-56BQ56J');</script>
+<!-- End Google Tag Manager -->
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-103065-27"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-103065-27');
+</script>
+
+
+<!-- Hotjar Tracking Code for https://openbanking.wso2.com/ -->
+<script>
+        (function(h,o,t,j,a,r){
+            h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+            h._hjSettings={hjid:1628388,hjsv:6};
+            a=o.getElementsByTagName('head')[0];
+            r=o.createElement('script');r.async=1;
+            r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+            a.appendChild(r);
+        })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+    </script>
+
+
+
+
+
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+
+   
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <meta property="og:type"               content="article" />
+<meta property="og:title"              content="WSO2 Open Banking - Open Banking Concepts" />
+<meta property="og:description"        content="" />
+<meta property="og:image"              content="" />
+<!--TWITTER-->
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="@wso2">
+<meta name="twitter:creator" content="@wso2">
+<meta name="twitter:title" content="WSO2 Open Banking - Open Banking Concepts">
+<meta name="twitter:description" content="">
+<meta name="twitter:image" content=""> 
+<meta name="twitter:text:description" content=""> 
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image:width" content="610">
+<!--LINKED IN  -->
+<meta property='og:title' content="WSO2 Open Banking - Open Banking Concepts"/>
+<meta property='og:image' content=""/>
+<meta property='og:description' content=""/>
+ 
+
+
+      <link rel="stylesheet" type="text/css" href="/ruby-bfsi-demo-test/demos/pisp/libs/bootstrap-5.2.0/bootstrap.min.css">
+      <link rel="stylesheet" type="text/css" href="/ruby-bfsi-demo-test/css/common-styles.css" >
+      <link rel="stylesheet" type="text/css" href="/ruby-bfsi-demo-test/css/ob.css" >
+
+
+
+      <title>WSO2 Open Banking - Open Banking Concepts</title>
+
+  </head>
+
+
+
+
+  <body>
+      <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-56BQ56J"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+   <div class="row cNavRow">
+         <div class="container" style="width: 95%">
+
+
+
+
+
+
+
+      <nav class="navbar navbar-expand-lg navbar-light ">
+          <a class="navbar-brand" href="/ruby-bfsi-demo-test/">
+              <img src="/ruby-bfsi-demo-test/img/logo.svg"/>
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <div id="navbarNavDropdown" class="navbar-collapse collapse">
+              <ul class="navbar-nav me-auto">
+
+
+              </ul>
+              <!-- <ul class="navbar-nav">
+                  <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Dropdown
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                          <a class="dropdown-item" href="#">Action</a>
+                          <a class="dropdown-item" href="#">Another action</a>
+                      </div>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="">Login</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="">Register</a>
+                  </li>
+              </ul> -->
+              <ul class="navbar-nav">
+                    <li class="nav-item  active ">
+                        <a class="nav-link" href="/ruby-bfsi-demo-test/">Home</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="/ruby-bfsi-demo-test/concepts">Concepts</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="/ruby-bfsi-demo-test/accelerator">Accelerator</a>
+                    </li>
+
+                    <li class="nav-item">
+
+                        <a class="nav-link" href="/ruby-bfsi-demo-test/usecases">Demos</a>
+
+                    </li>
+
+<!--                  <li class="nav-item dropdown ">-->
+<!--                      <a class="nav-link dropdown-toggle" href="javascript:void(0)" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Use Case Demos </a>-->
+<!--                      <div class="dropdown-menu dropdown-menu-right" aria-labelledby="demos">-->
+<!--                        <a class="dropdown-item " href="/demos/pisp">PISP</a>-->
+<!--                        <a class="dropdown-item " href="/demos/aisp">AISP</a>-->
+<!--                      </div>-->
+<!--                    </li>-->
+
+                  <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="javascript:void(0)" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Resources </a>
+                      <div class="dropdown-menu dropdown-menu-right" aria-labelledby="demos">
+                          <a class="dropdown-item" href="https://wso2.com/library/open-banking/">Library</a>
+                          <a class="dropdown-item" href="https://wso2.com/blog/industry-solutions">Blogs</a>
+                      </div>
+                  </li>
+
+
+<!--                    <li class="nav-item dropdown">-->
+<!--                      <a class="nav-link dropdown-toggle" href="javascript:void(0)" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Developer Portal</a>-->
+<!--                      <div class="dropdown-menu dropdown-menu-right" aria-labelledby="psd2">-->
+<!--                        <a class="dropdown-item " href="/sandbox-guide">Sandbox Guide </a>-->
+<!--                        <a class="dropdown-item" href="https://sandbox-openbanking.wso2.com" target="_blank">-->
+<!--                            Sandbox</a>-->
+<!--                      </div>-->
+<!--                    </li>-->
+                    <li class="nav-item ">
+                      <a class="nav-link" target="_blank" href="https://wso2.com/contact/?src=open-banking">Contact <span class="visually-hidden">(current)</span></a>
+                    </li>
+            </ul>
+
+
+          </div>
+      </nav>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+   </div>
+
+
+   <section class="cHeader cSectionAboveHighlight cIntroSection cTitle">
+      <div class="container">
+       
+    
+     <div class="row">
+          <div class="col-sm-12 col-md-9 col-lg-9">
+               <h1 class="cReducedBottomMargin" style="display: inline-block;">Open Banking Concepts</h1>
+              <p>Learn the core concepts of Open Banking</p> 
+          </div>
+          <div class="clearfix"></div>
+
+      </div>
+
+
+    </div>
+
+</section>
+
+<section class="cIntro cWhiteBG">
+    <div class="container-flud ">
+        <div class="row">
+      
+            <div class="col-sm-12 col-md-3 col-lg-3 cTocConatiner">
+                <div class="cToC-pannel">
+                        <ul>
+  <li><a href="#what-is-open-banking">What is Open Banking?</a>
+    <ul>
+      <li><a href="#wso2-open-banking-accelerator">WSO2 Open Banking Accelerator</a></li>
+      <li><a href="#stakeholders">Stakeholders</a></li>
+      <li><a href="#api-consumer-onboarding">API Consumer Onboarding</a></li>
+      <li><a href="#consent-management">Consent Management</a></li>
+      <li><a href="#consumer-authentication">Consumer Authentication</a></li>
+      <li><a href="#developer-portal">Developer Portal</a></li>
+      <li><a href="#banking-systems-integration">Banking Systems Integration</a></li>
+      <li><a href="#reporting-and-data-analytics">Reporting and Data Analytics</a></li>
+      <li><a href="#api-security">API Security</a></li>
+      <li><a href="#user-experience">User Experience</a></li>
+      <li><a href="#premium-apis-and-monetization">Premium APIs and Monetization</a></li>
+      <li><a href="#standards-based-api-templates">Standards-based API Templates</a></li>
+    </ul>
+  </li>
+</ul>
+
+                </div>
+                
+            </div>
+
+                <div class="col-sm-12 col-md-9 col-lg-9 cPagecontent">
+                    <div class=" cWhiteBG cAddedBottomMargin">
+                        <h1 id="what-is-open-banking">What is Open Banking?</h1>
+
+<p>Open banking is a concept that enables banks, customers, and third parties to use and benefit more from the vast silos 
+of data held by banks on their customers. Fundamentally, open banking allows bank customers to share their financial 
+data with third parties with their consent. In technical terms, this is done via secure APIs that allow the customers 
+or authorised API consumer applications to access data held by the bank.</p>
+
+<p>An open banking accelerator provides the base technology for financial institutions to meet open banking compliance. 
+It accelerates open banking adoption by providing the required technology stack to cater to open banking requirements 
+so that you don’t have to build a solution from scratch. This can accelerate your pathway of reaching defined goals 
+in open banking compliance, technology, and business goals.</p>
+
+<h2 id="wso2-open-banking-accelerator">WSO2 Open Banking Accelerator</h2>
+
+<p>WSO2 Open Banking Accelerator is a collection of technologies that increases the speed and reduces the complexity of 
+adopting open banking compliance. Instead of building a solution from scratch, you can use WSO2 Open Banking Accelerator 
+to meet all legislative requirements with additional benefits beyond compliance.</p>
+
+<p>The WSO2 Open Banking Accelerator runs on top of WSO2 Identity Server and WSO2 API Manager.</p>
+
+<p>Use the accelerator capabilities and customize them according to your open banking requirements. You can easily 
+implement a toolkit to customize the accelerator and help you comply with any regional open banking standard including
+PSD2, Open Banking Standard UK, Berlin Group’s NextGenPSD2, Australia’s Consumer Data Standard.</p>
+
+<p>For more information, see <a href="https://ob.docs.wso2.com/en/latest/get-started/wso2-open-banking-accelerator">WSO2 
+Open Banking Accelerator Documentation</a>.</p>
+
+<h2 id="stakeholders">Stakeholders</h2>
+
+<p>Following are the categories of stakeholders that actively participate in an open banking ecosystem:</p>
+
+<ul>
+  <li>
+    <p><strong>Customer</strong> - The owner of a bank account who can grant access to the API consumer applications to retrieve
+account information or initiate payments on their behalf. With open banking in the picture, the owner can use a
+single application to manage the accounts and initiate a payment on behalf of them. The customers have more control
+over their data as they can manage and revoke the API consumer applications’ access to the financial information.</p>
+  </li>
+  <li>
+    <p><strong>API consumer application</strong> - An authorized third-party financial service provider that uses standard APIs to
+access customer’s accounts. API consumer applications play several roles such as retrieving account information,
+initiating payments on behalf of the customers, and checking available funds.</p>
+  </li>
+  <li>
+    <p><strong>Financial institution</strong> - An entity such as a bank that provides and maintains a payment account for a customer.
+With customer consent, they share account and transaction data via API endpoints and let API consumer applications
+make payments on behalf of the customer.</p>
+  </li>
+  <li>
+    <p><strong>Merchant</strong> - A vendor who accepts online payments in exchange for their products or services. A merchant can
+use a single API consumer application to accept payments easily from multiple banks. Unless the customer wants to
+make a payment from their bank account, the role of a merchant is not available in all open banking use cases.</p>
+  </li>
+</ul>
+
+<p>There are other stakeholders such as the government, technology providers, and consultancy service providers that
+are involved in open banking.</p>
+
+<h2 id="api-consumer-onboarding">API Consumer Onboarding</h2>
+
+<p>API consumer (TPP or Data Recipient) onboarding is the process of verifying an API consumer when they register
+with a bank to provide services to customers. It is important since the API consumer has access to the customer’s
+financial information via their applications. The accelerator provides dynamic client registration for API consumers.</p>
+
+<h2 id="consent-management">Consent Management</h2>
+
+<p>Consent management is the process of prompting, collecting, and managing bank customer’s
+consent before an API consumer collects or shares the customer’s financial information. The accelerator includes a
+fully-featured consent management module that:</p>
+
+<ul>
+  <li>securely exposes consent data through an API</li>
+  <li>provides in-built consent management user interfaces for customers and bank staff</li>
+  <li>manages the entire consent life cycle</li>
+</ul>
+
+<h2 id="consumer-authentication">Consumer Authentication</h2>
+
+<p>Consumer authentication is an authentication mechanism with a layered defence. When a user initiates a payment or 
+accesses information via an API consumer application, it authenticates the user using the following factors one at a time:</p>
+
+<ul>
+  <li>Knowledge : something the user knows. For example: password</li>
+  <li>Possession : something the user owns. For example: ATM cards</li>
+  <li>Inherence : something the user is. For example: fingerprint</li>
+</ul>
+
+<h2 id="developer-portal">Developer Portal</h2>
+
+<p>WSO2 Open Banking Accelerator offers a customizable Developer Portal that enables application developers to
+publish, republish, subscribe, and test APIs.</p>
+
+<h2 id="banking-systems-integration">Banking Systems Integration</h2>
+
+<p>Use the integration capabilities of <a href="https://apim.docs.wso2.com/en/4.0.0/integrate/integration-overview/">WSO2 Micro Integrator</a>
+to help banks connect their core banking systems and overcome the challenges of legacy technology. With the help of
+the Micro Integrator, WSO2 Open Banking can support:</p>
+<ul>
+  <li>different message protocols (HTTP/TCP), message types (REST/SOAP), and formats (ISO 8583, ISO 20022).</li>
+  <li>mediation between a legacy or digital core and other banking systems, and the bank’s library of open banking APIs.</li>
+</ul>
+
+<h2 id="reporting-and-data-analytics">Reporting and Data Analytics</h2>
+
+<p>The accelerator mediates between the bank’s systems and modern analytics systems. Analytics allows
+banks to monitor user patterns and behaviours and to identify fraudulent activities. Furthermore, you can generate
+reports according to your regulation requirements.</p>
+
+<h2 id="api-security">API Security</h2>
+
+<p>API consumers invoke APIs to access customer’s financial information. Therefore, API security plays
+a vital role in open banking to mitigate data theft. There is built-in support for global industry-standards
+such as OpenID Connect Financial Grade API (FAPI), OAuth 2.0, Electronic Identification and Trust Services (eIDAS).</p>
+
+<h2 id="user-experience">User Experience</h2>
+
+<p>Provides an enhanced user experience for the banks, API consumers, and customers with
+self-explanatory and simple actions.</p>
+
+<h2 id="premium-apis-and-monetization">Premium APIs and Monetization</h2>
+
+<p>Using the capabilities in WSO2 API Manager, WSO2 Open Banking Accelerator allows:</p>
+<ul>
+  <li>banks to publish highly-performant custom APIs for API consumers.</li>
+  <li>banks to expose their performance and compliance data by integrating into analytics engines.</li>
+  <li>banks to plug in any billing engines with subscription-based freemium, tiered pricing, or per-request pricing.</li>
+</ul>
+
+<h2 id="standards-based-api-templates">Standards-based API Templates</h2>
+
+<p>WSO2 API Manager offers standard API management capabilities, and you can customize
+the API templates according to your open banking and other requirements.</p>
+
+                        <div class="clearfix"></div>
+                    </div>       
+                </div>
+
+
+            </div>
+    
+
+      
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+     
+ 
+  
+
+
+
+
+<section class="cFooter">
+    <div class="container">
+
+            <p class="mt-5">WSO2 Open Banking | Copyright © WSO2 LLC. 2024</p>
+
+    </div>
+</section>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+      <script src="/ruby-bfsi-demo-test/demos/aisp/Banks/assets/jquery-3.6.0/jquery.min.js"></script>
+      <script src="/ruby-bfsi-demo-test/demos/aisp/Banks/assets/popperjs-2.11.6/popper.min.js"></script>
+      <script src="/ruby-bfsi-demo-test/demos/aisp/Banks/assets/bootstrap-5.2.0/bootstrap.min.js"></script>
+
+    <style>
+body {
+    /* background: #999999; */
+ 
+
+    background-size: 100%;
+    background-position: 0px -130px;
+    background-repeat: no-repeat;
+}
+    </style>
+
+    <script>
+//  $( ".section-nav" ).wrap( "<div class='col-sm-12 col-md-4 col-lg-4 ctoccontainer'></div>" );
+
+ 
+
+
+
+ $(window).scroll(function() {
+    if ($(this).scrollTop() > 380) {
+        $('.cToC-pannel').addClass('stick');
+    
+     
+
+    } else {
+
+        $('.cToC-pannel').removeClass('stick');
+      
+  
+    }
+    
+
+});
+
+
+
+
+
+
+
+
+    </script>
+
+  </body>
+</html>
