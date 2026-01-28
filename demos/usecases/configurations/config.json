@@ -171,17 +171,17 @@
   ],
   "payees": [
     {
-      "name": "A.C.ME.",
+      "name": "School Fees",
       "bank": "First National Bank",
       "accountNumber": "1234567890"
     },
     {
-      "name": "John Smith",
+      "name": "House Rent",
       "bank": "Ally Bank",
       "accountNumber": "0987654321"
     },
     {
-      "name": "Jane Doe",
+      "name": "Electricity Bill",
       "bank": "TD Canada Trust",
       "accountNumber": "1122334455"
     },
@@ -196,7 +196,7 @@
       "accountNumber": "5566778899"
     },
     {
-      "name": "Sarah Johnson",
+      "name": "Grocery Store Bill",
       "bank": "Wells Fargo",
       "accountNumber": "4455667788"
     }

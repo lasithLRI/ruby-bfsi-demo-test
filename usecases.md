@@ -6,6 +6,8 @@ toc: true
 permalink: /usecases
 ---
 
-Assume you are done adding your items to the shopping cart. You can then click the checkout/pay option.
+Accounts Central is an Open Banking demo that allows you to aggregate financial data via the Add Account button or simulate direct transfers through the Pay Bills feature. You can
+navigate the AISP and PISP journeys easily as all login and OTP fields accept any alphanumeric input for this simulation.
+
 
 <iframe class="embed-responsive-item cIframe" src="{{ '/demos/usecases/index.html' | relative_url }}"></iframe>
