@@ -1,6 +1,6 @@
 ---
 layout: ob-base-toc-page
-title: Open Banking Accelerator 
+title: Open Banking Accelerator
 intro: Capabilities of the accelerator
 toc: true
 ---
@@ -12,15 +12,15 @@ adopting open banking compliance. Instead of building a solution from scratch, y
 Accelerator to meet all legislative requirements with additional benefits beyond compliance. The accelerator runs on top
 of WSO2 Identity Server and WSO2 API Manager.
 
-<img src="/img/accelerator/accelerator-toolkit-model.png" width="80%">
+<img src="./img/accelerator/accelerator-toolkit-model.png" width="80%">
 
 The accelerator mainly addresses the open banking requirements such as API consumer application onboarding, consent
-management, and access authorization among numerous other 
+management, and access authorization among numerous other
 [features](https://ob.docs.wso2.com/en/latest/learn/consent-management/) to set up an open
-banking solution. You can easily [implement a toolkit](https://ob.docs.wso2.com/en/latest/develop/develop-toolkit/) 
+banking solution. You can easily [implement a toolkit](https://ob.docs.wso2.com/en/latest/develop/develop-toolkit/)
 to customize the accelerator and help you comply with any regional open banking standard.
 
-<img src="/img/accelerator/layered-architecture.png" width="80%">
+<img src="./img/accelerator/layered-architecture.png" width="80%">
 
 ## Capabilities
 
@@ -32,31 +32,31 @@ successful open banking initiatives.
 ### Regulatory Compliance
 - Supports all major open banking requirements defined by open banking
   [regulations](https://ob.docs.wso2.com/en/latest/get-started/regulations-and-standards)
-- Use the Open Banking Accelerator extensions and implement a toolkit  
-- Complies with multiple Security and Functional 
+- Use the Open Banking Accelerator extensions and implement a toolkit
+- Complies with multiple Security and Functional
   [Conformance Suites](https://ob.docs.wso2.com/en/latest/conformance/ciba-conformance/)
 
 ### API Consumer/TPP Onboarding
 - Register OAuth 2.0 clients with authorization servers
 - Provide Dynamic Client Registration (DCR) API
-- Validate if the application is authorized by a competent authority 
-- Validate information such as the role of the application, signature algorithm, authorization scopes, OAuth2.0 grant 
+- Validate if the application is authorized by a competent authority
+- Validate information such as the role of the application, signature algorithm, authorization scopes, OAuth2.0 grant
   types, application type, and the request issuance time
 - Allow registered applications to access data via open banking APIs
 - Extend the DCR services and perform custom validations
 
 ### Consent Management
 - Store, validate, and revoke consents
-- Securely expose consent data through an API 
-- Provide in-built consent management user interfaces for customers and bank staff 
+- Securely expose consent data through an API
+- Provide in-built consent management user interfaces for customers and bank staff
 - Manage the entire consent life cycle
 - Extend the consent management services and customize
 
-### Consumer Authentication 
+### Consumer Authentication
 - Support Multi-factor Authentication (MFA)
 - Support identifier-first authentication
 - Adaptive authentication
-- Extend the existing authenticators or write new authenticators 
+- Extend the existing authenticators or write new authenticators
 
 ### Integration
 - Easy integration with core banking systems
@@ -72,14 +72,14 @@ Built-in support for global industry standards such as
 ### Data Analytics
 - Mediate between the bank systems and modern analytics systems
 - Monitor user patterns and behaviours and identify fraudulent activities
-- Generate reports and summaries for regulatory requirements 
+- Generate reports and summaries for regulatory requirements
 - Support HTTP, gRPC, or any other data-publishing protocol
 
 ### Dev Portal
 - Application developers can publish, republish, subscribe, and test APIs
-- Customizable Developer Portal 
+- Customizable Developer Portal
 
-### Premium APIs and Monetization 
+### Premium APIs and Monetization
 Using the capabilities in WSO2 API Manager, the accelerator allows the banks to
 - Publish highly-performant custom APIs for API consumers
 - Expose their performance and compliance data by integrating into analytics engines
