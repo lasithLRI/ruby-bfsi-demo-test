@@ -326,6 +326,10 @@ padding: 1rem;
 		display: block;
 	}
 
+	.cIframe{
+		height: 310vh;
+	}
+
 }
 
 @media (max-width: 991px) {
