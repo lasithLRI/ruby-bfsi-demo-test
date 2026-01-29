@@ -215,11 +215,11 @@ h1.cReducedBottomMargin {
 
 .cIframe {
 	width: 100%;
-	height: 2050px;
-	/* scroll:no; */
-	scoll:no;
-	padding: 0.5rem;
-	border: 1px solid black;
+    overflow: hidden;
+    display: block;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
 
 }
 
@@ -326,9 +326,9 @@ padding: 1rem;
 		display: block;
 	}
 
-	.cIframe{
+	/* .cIframe{
 		height: 2050px;
-	}
+	} */
 
 }
 
