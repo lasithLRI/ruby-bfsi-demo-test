@@ -209,8 +209,8 @@
         {
           "id": "usecase1",
           "title": "Use Case 1",
-          "userVerification": "Identifier-first authentication followed by two-step verification",
-          "consentDisplay": "N/A",
+          "userVerification": "Basic authentication followed by two-step verification",
+          "consentDisplay": "Payment consent to get the confirmation to make the payment",
           "steps": [
             { "id": "1", "name": "Login to your Account", "component": "login" },
             { "id": "2", "name": "Two step verification", "component": "otp" },
@@ -241,7 +241,7 @@
         {
           "id": "use case 2",
           "title": "Use Case 2",
-          "userVerification": "Identifier-first authentication followed by two-step verification",
+          "userVerification": "Basic authentication followed by two-step verification",
           "consentDisplay": "Single-step flow for account selection and consent confirmation, allowing the user to select multiple accounts per permission",
           "steps": [
             { "id": "1", "name": "Login to your Account", "component": "login" },
@@ -253,9 +253,9 @@
         },
 
         {
-          "id": "use case 4",
-          "title": "Use Case 4",
-          "userVerification": "Identifier-first authentication followed by two-step verification",
+          "id": "use case 3",
+          "title": "Use Case 3",
+          "userVerification": "Basic authentication followed by two-step verification",
           "consentDisplay": "Single-step flow for account selection and consent confirmation, allowing the user to select one or more accounts for the consent",
           "steps": [
             { "id": "1", "name": "Login to your Account", "component": "login" },
