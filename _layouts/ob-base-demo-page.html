@@ -84,6 +84,10 @@ window.addEventListener('message', function(e) {
             iframe.style.overflow = 'hidden';
         }
     }
+
+     if (e.data.type === 'scroll-to-top') {
+        window.scrollTo({ top: 0, behavior: 'smooth' }); // smooth scroll
+    }
 });
 </script>
 
