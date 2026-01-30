@@ -73,23 +73,34 @@
     </div>
 
 <script>
+    let lastHeight = 0;
+    const MAX_HEIGHT = 5000; // Set a maximum reasonable height
 
-// Listen for messages from iframe
-window.addEventListener('message', function(e) {
-    if (e.data.type === 'iframe-height') {
-        const iframe = document.querySelector('iframe');
-        if (iframe) {
-            iframe.style.height = (e.data.height) + 'px'; // Small buffer
-            iframe.style.width = '100%';
-            iframe.style.overflow = 'hidden';
+    // Listen for messages from iframe
+    window.addEventListener('message', function(e) {
+        if (e.data.type === 'iframe-height') {
+            const iframe = document.querySelector('.cIframe');
+            if (iframe && e.data.height) {
+                const requestedHeight = e.data.height;
+
+                // Prevent excessive height
+                const newHeight = Math.min(requestedHeight, MAX_HEIGHT);
+
+                // Only update if height changed significantly and is reasonable
+                if (Math.abs(newHeight - lastHeight) > 10 && newHeight > 200) {
+                    iframe.style.height = newHeight + 'px';
+                    lastHeight = newHeight;
+                    console.log('Set iframe height to:', newHeight);
+                }
+            }
         }
-    }
 
-     if (e.data.type === 'scroll-to-top') {
-        window.scrollTo({ top: 0, behavior: 'smooth' }); // smooth scroll
-    }
-});
+        if (e.data.type === 'scroll-to-top') {
+            window.scrollTo({ top: 60, behavior: 'smooth' });
+        }
+    });
 </script>
+
 
 </section>
 
