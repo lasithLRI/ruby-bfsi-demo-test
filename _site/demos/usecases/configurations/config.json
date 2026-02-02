@@ -293,7 +293,7 @@
       "title": "Payment",
       "useCases": [
         {
-          "id": "use case 1",
+          "id": "Use Case 1",
           "title": "Payment Confirmation",
           "userVerification": "Basic authentication followed by two-step verification",
           "consentDisplay": "Payment consent to get the confirmation to make the payment",
@@ -312,8 +312,8 @@
       "title": "Account",
       "useCases": [
         {
-          "id": "use case 1",
-          "title": "Use Case 1",
+          "id": "Use Case 1",
+          "title": "Accounts Flow",
           "userVerification": "Identifier-first authentication followed by two-step verification",
           "consentDisplay": "Multiple steps, including separate stages for account selection and consent confirmation",
           "steps": [
@@ -325,8 +325,8 @@
           ]
         },
         {
-          "id": "use case 2",
-          "title": "Use Case 2",
+          "id": "Use Case 2",
+          "title": "Accounts Flow",
           "userVerification": "Basic authentication followed by two-step verification",
           "consentDisplay": "Single-step flow for account selection and consent confirmation, allowing the user to select multiple accounts per permission",
           "steps": [
@@ -339,8 +339,8 @@
         },
 
         {
-          "id": "use case 3",
-          "title": "Use Case 3",
+          "id": "Use Case 3",
+          "title": "Accounts Flow",
           "userVerification": "Basic authentication followed by two-step verification",
           "consentDisplay": "Single-step flow for account selection and consent confirmation, allowing the user to select one or more accounts for the consent",
           "steps": [
