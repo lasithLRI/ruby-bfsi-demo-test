@@ -27,7 +27,7 @@
           "transactions": [
             {
               "id": "T00123456",
-              "date": "2025-10-17",
+              "date": 1,
               "reference": "INV-4521/ABC",
               "bank": "Ascend Global",
               "account": "1234-5678-9012-3456",
@@ -37,7 +37,7 @@
             },
             {
               "id": "T00123460",
-              "date": "2025-10-18",
+              "date": 3,
               "reference": "INV-4522/DEF",
               "bank": "Ascend Global",
               "account": "1234-5678-9012-3456",
@@ -47,7 +47,7 @@
             },
             {
               "id": "T00123461",
-              "date": "2025-10-19",
+              "date": 12,
               "reference": "FEE-8801/GHI",
               "bank": "Ascend Global",
               "account": "1234-5678-9012-3456",
@@ -61,11 +61,11 @@
           "id": "0066-4435-9454",
           "bank": "Ascend Global Bank",
           "name": "Current account",
-          "balance": 450,
+          "balance": 5,
           "transactions": [
             {
               "id": "T00123459",
-              "date": "2025-10-15",
+              "date": 33,
               "reference": "FEE-7765/PQR",
               "bank": "Ascend Global",
               "account": "5555-6666-7777-8888",
@@ -75,7 +75,7 @@
             },
             {
               "id": "T00123462",
-              "date": "2025-10-20",
+              "date": 15,
               "reference": "PAY-1102/STU",
               "bank": "Ascend Global",
               "account": "5555-6666-7777-8888",
@@ -91,7 +91,7 @@
           "id": "SO-3001",
           "reference": "RENT-OCT-25",
           "bank": "Ascend Global",
-          "nextDate": "2025-11-01",
+          "nextDate": 28,
           "status": "Active",
           "amount": "1850.00",
           "currency": "GBP"
@@ -100,7 +100,7 @@
           "id": "SO-3004",
           "reference": "UTILITY-ELECTRIC",
           "bank": "Ascend Global",
-          "nextDate": "2025-10-28",
+          "nextDate": 25,
           "status": "Active",
           "amount": "85.20",
           "currency": "GBP"
@@ -109,7 +109,7 @@
           "id": "SO-3006",
           "reference": "UTILITY-GAS",
           "bank": "Ascend Global",
-          "nextDate": "2025-10-30",
+          "nextDate": 27,
           "status": "Active",
           "amount": "62.40",
           "currency": "GBP"
@@ -134,7 +134,7 @@
           "transactions": [
             {
               "id": "T00123458",
-              "date": "2025-10-17",
+              "date": 10,
               "reference": "DEP-3321/LMN",
               "bank": "Global Asset Trust",
               "account": "1111-2222-3333-4444",
@@ -144,7 +144,7 @@
             },
             {
               "id": "T00123463",
-              "date": "2025-10-21",
+              "date": 15,
               "reference": "DEP-3322/OPQ",
               "bank": "Global Asset Trust",
               "account": "1111-2222-3333-4444",
@@ -154,7 +154,7 @@
             },
             {
               "id": "T00123464",
-              "date": "2025-10-22",
+              "date": 2,
               "reference": "FEE-9901/RST",
               "bank": "Global Asset Trust",
               "account": "1111-2222-3333-4444",
@@ -170,7 +170,7 @@
           "id": "SO-3003",
           "reference": "MORTGAGE-PAY",
           "bank": "Global Asset Trust",
-          "nextDate": "2025-11-05",
+          "nextDate": 32,
           "status": "Active",
           "amount": "2100.50",
           "currency": "EUR"
@@ -179,7 +179,7 @@
           "id": "SO-3007",
           "reference": "INSURANCE-HOME",
           "bank": "Global Asset Trust",
-          "nextDate": "2025-11-10",
+          "nextDate": 37,
           "status": "Active",
           "amount": "145.00",
           "currency": "GBP"
@@ -188,7 +188,7 @@
           "id": "SO-3008",
           "reference": "SAVINGS-TRANSFER",
           "bank": "Global Asset Trust",
-          "nextDate": "2025-11-01",
+          "nextDate": 28,
           "status": "Active",
           "amount": "500.00",
           "currency": "GBP"
@@ -213,7 +213,7 @@
           "transactions": [
             {
               "id": "T00123457",
-              "date": "2025-10-16",
+              "date": 11,
               "reference": "PAY-9876/XYZ",
               "bank": "Trust Union",
               "account": "9876-5432-1098-7654",
@@ -229,7 +229,7 @@
           "id": "SO-3002",
           "reference": "SUBSCRIPTION-PRO",
           "bank": "Trust Union",
-          "nextDate": "2025-10-25",
+          "nextDate": 22,
           "status": "Active",
           "amount": "19.99",
           "currency": "USD"
@@ -238,7 +238,7 @@
           "id": "SO-3005",
           "reference": "ANNUAL-LICENSE",
           "bank": "Trust Union",
-          "nextDate": "2026-01-01",
+          "nextDate": 334,
           "status": "Paused",
           "amount": "299.00",
           "currency": "USD"
@@ -247,7 +247,7 @@
           "id": "SO-3009",
           "reference": "PHONE-PLAN",
           "bank": "Trust Union",
-          "nextDate": "2025-10-27",
+          "nextDate": 24,
           "status": "Active",
           "amount": "38.50",
           "currency": "GBP"
